@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>redirect</title>
+		<script>
+		   function redirectURL() {
+		       let url = document.getElementById("url").value
+		       window.location.href = url
+		    }
+		</script>
+	</head>
+	<body>
+		<input type="text" id="url" />
+		<button onclick="redirectURL()">redirect</button>
+	</body>
+</html>
